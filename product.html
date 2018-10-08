@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Social Commerce</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Social Commerce Website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+    <body>
+        <!--The Header-->
+        <header>
+			<div class="hd_container">
+				<div class="logo">
+					<a href="index.html"><img id="logo_img" src="images/logo.png" alt="The Hookup Logo"></a>
+				</div>
+				<nav id="my_nav" class="main_nav">
+					<span class="close">&times;</span>
+					<ul class="navi">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="products.html">Products</a></li>             
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Signup</a></li>
+					</ul>
+				</nav>
+				<div id="hamburger">
+					<a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</header>
+
+        <!--The Page-->
+		<div id="wrapper">
+            <div class="page">
+				<div class="searchform">
+					<form action="" method="POST">
+						<input title="search" name="search" placeholder="Search">									
+					</form>	
+					<select class="dropdown">
+						<option value="">Sort by <i class="fa fa-caret-down"></i></option>
+						<option value="old">Oldest</option>
+						<option value="new">Newest</option>
+						<option value="prc">Price</option>
+					</select>
+				</div>
+				<div class="products">
+					<div class="slideshow">
+						<div class="slideshow-container">
+							<div class="mySlides fade">
+								<img src="images/product_1.jpg" style="width:100%">
+							</div>
+								
+							<div class="mySlides fade">
+								<img src="images/product_9.jpg" style="width:100%">
+							</div>
+							
+							<div class="mySlides fade">
+								<img src="images/product_10.jpg" style="width:100%">
+							</div>
+
+							<div class="mySlides fade">
+								<img src="images/product_11.jpg" style="width:100%">
+							</div>
+							
+							<div class="mySlides fade">
+								<img src="images/product_12.jpg" style="width:100%">
+							</div>
+								
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+							<br>	
+							<p class="small">Date Posted: Oct 5, 2018</p>						
+						</div>
+						<div class="item">
+							<h5>Item Details:</h5>
+							<ul>
+								<li><b>Item Name:</b> Macbook</li>
+								<li><b>Item Type:</b> Electronics</li>
+								<li><b>Item Category:</b> Laptop</li>
+								<li><b>Item Size:</b> 12 inches</li>
+								<li><b>Item Color:</b> Space Gray</li>
+								<li><b>Item Price:</b> USD $1200</li>
+								<li><b>Shipping Range:</b> Worldwide</li>
+								<li><b>Shipping Price*:</b> USD $10</li>
+							</ul>
+							<br><br>
+							<p class="small">*Shipping and handling prices may vary depending on destination.</p>
+						</div>
+					</div>
+					<div class="seller">
+						<p><b>Interested? </b>Contact the seller<sup>&#8224;</sup>:</p>
+						<ul>
+							<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<div class="description">
+						<h5>Description:</h5> 
+						<p>Bought this Macbook as a birthday present for myself a week ago and my boyfriend ended
+							up buying a Macbook Pro for me as well. I barely used it, so it's basically still new.
+							No scratches or marks. Still have the original packaging it came in as well. Everything 
+							has been reset, so you shouldn't have a problem.
+						</p> 
+					</div>
+					<div class="description">
+						<h5>What's in the package?</h5>
+						<ul>
+							<li> 12-inch MacBook</li>
+							<li> USB-C Charge Cable (2 m)</li>
+							<li> 30W USB-C Power Adapter</li>
+						</ul>
+					</div>
+					<div class="specs">
+						<h5>Product Specs:</h5>
+						<ul>
+							<li> 12-inch display screen</li>
+							<li> 1.2GHz dual-core 7th-generation Intel Core m3 processor</li>
+							<li> Turbo Boost up to 3.0GHz</li>
+							<li> 8GB 1866MHz LPDDR3 memory</li>
+						</ul>
+						<ul>
+							<li> 256GB SSD storage</li>
+							<li> Intel HD Graphics 615</li>
+							<li> Keyboard with second-generation butterfly mechanism</li>
+							<li> Backlit Keyboard - US English</li>
+						</ul>					
+					</div>
+					<div class="seller">
+						<p><b>Interested? </b>Contact the seller<sup>&#8224;</sup>:</p>
+						<ul>
+							<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<br><br>
+					<p class="small"> <sup>&#8224;</sup>Seller approved and trusted.</p>
+				</div>
+            </div>
+        </div>
+
+        <!--The Footer-->
+		<footer>
+            <div class="ft_container">
+                <div class="logo">
+                    <a href="index.html"><img id="ft_logo_img" src="images/logo.png" alt="The Hookup Logo"></a>
+                </div>
+                <div class="social">
+                    <p>Don't forget to like and follow us. If you have any issues, please feel free to contact the moderators.</p>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="secondary">
+                    Copyright &copy; 2018. All rights | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i></br>
+                    by <a style="text-decoration: underline;" href="" target="_blank">Shazelle</a>
+                </div>
+            </div>
+		</footer>
+		
+		<script>
+			var modal = document.getElementById("my_nav");
+			var btn = document.getElementById("hamburger");
+			var display = document.getElementsByClassName("navi")[0];
+			var span = document.getElementsByClassName("close")[0];
+
+			btn.onclick = function() {
+				modal.style.display = "block";
+				if (modal.className === "main_nav") {
+					modal.className = "modal";
+					display.className = "mobile_nav";
+				} 
+			}
+			span.onclick = function() {
+				modal.style.display = "none";
+				modal.className = "main_nav";
+				display.className = "navi";
+			}
+			window.onclick = function(event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+					modal.className = "main_nav";
+					display.className = "navi";
+				}
+			}
+		</script>
+		<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+				showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+				showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				if (n > slides.length) {slideIndex = 1}    
+				if (n < 1) {slideIndex = slides.length}
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";  
+				}
+				slides[slideIndex-1].style.display = "block";  
+			}
+		</script>
+    </body>
+</html>

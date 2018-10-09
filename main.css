@@ -54,7 +54,7 @@ button a {display: block;position: relative;font-size: 16px;font-weight: 600;lin
 .item {padding-top: 40px;margin-bottom: 20px;}
 .desc {padding: 2px 16px;text-align: center;}
 .description {margin-bottom: 40px;text-align: left;}
-.description li, .specs li, .item li, .links li, aside li{margin: 10px auto;}
+.description li, .specs li, .item li, .links li, aside li {margin: 10px auto;}
 .specs {margin-bottom: 40px;display: inline-block;}
 .details {display: flex;}
 .info {text-align: center;}
@@ -65,13 +65,17 @@ button a {display: block;position: relative;font-size: 16px;font-weight: 600;lin
 .banner a {color: #ffffff;text-decoration: underline;}
 .more {cursor: pointer;text-align: center;border-top: 2px solid #eeeeee;padding-top: 5px;margin-bottom: 60px;text-decoration: underline;}
 
-.r_panel{border: 1px solid #eeeeee;}
+.r_panel {border: 1px solid #eeeeee;padding-top: 15px;}
 .r_panel img {width: 100%;}
-.r_panel button {margin: 5px 0; width: 100%;}
-.wish {font-size: 25px;color:red;}
-.fav {font-size: 25px;color: yellow;}
+.r_panel button {margin: 5px 0;width: 100%;}
+.gift {margin-left: 10px;color:blue;}
+.wish {font-size: 25px;color:red;margin-left: 10px;}
+.fav {font-size: 30px;color: yellow;margin-left: 10px;}
 .gfw, .policy {display: inline-block;}
-.gfw a:hover, .policy a:hover {text-decoration: underline;}
+.gfw a:hover, .policy a:hover, .links a:hover {text-decoration: underline;}
+.similar {margin:40px auto;}
+.similar div {display: inline-flex;width: 100%;overflow: auto;padding: 20px 0;}
+.similar span {margin: auto 10px;}
 
 
 .page {margin-top: 60px;}

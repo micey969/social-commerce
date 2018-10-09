@@ -77,6 +77,7 @@ button a {display: block;position: relative;font-size: 16px;font-weight: 600;lin
 .pimg {width: 80px;}
 .pimg img {width: 80px;}
 .pdata h6 {margin: 5px auto;}
+.pdata h6 a:hover {text-decoration: underline;color:blue;}
 .pdata {display: inline-block;margin-left: 40px;vertical-align: top;}
 .pdata button {height: 50px;background: blue;width: 100px;margin-left: 0;border: 2px solid blue;}
 .pcont li img {width: 100%;}
@@ -158,6 +159,10 @@ footer {border-top: 2px solid #eeeeee;font-size: 12px;margin-top: 60px;padding-b
     .card:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);}
     .container {display: inline-block;margin-left: 3%;}
     .l_panel {float: left;width: 60%;margin-right: 40px;}
+    .specs {width: 100%;}
+    .specs ul {width: 45%;}
+    .sp1 {margin-right: 8%;}
+    .sp2 {vertical-align: top;}
     .profile {display: inline-flex;}
     .prof {margin: 0 30px;}
     .pro {margin-right: 30px;}
@@ -179,7 +184,7 @@ footer {border-top: 2px solid #eeeeee;font-size: 12px;margin-top: 60px;padding-b
 
 /* desktop mode */
 @media screen and (min-width: 990px) {
-    ul {display: inline-flex;}
+    .navi {display: inline-flex;}
     img {width: 180px;}
     .close  {display: none;}
     #logo_img {margin-top: -15px;}
@@ -196,7 +201,6 @@ footer {border-top: 2px solid #eeeeee;font-size: 12px;margin-top: 60px;padding-b
     .slideshow {display: inline-flex;}
     .slideshow-container {margin-bottom: 40px;}
     .item {margin-left: 40px;padding-top: 0;}
-    .specs ul {margin-right: 40px;}
     .first .content {top: 50%;}
     .second .content {top: 10%;}
     .info {display: flex;}

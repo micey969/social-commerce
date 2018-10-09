@@ -54,7 +54,7 @@ button a {display: block;position: relative;font-size: 16px;font-weight: 600;lin
 .item {padding-top: 40px;margin-bottom: 20px;}
 .desc {padding: 2px 16px;text-align: center;}
 .description {margin-bottom: 40px;text-align: left;}
-.description li, .specs li, .item li, .links li, aside li {margin: 10px auto;}
+.description li, .specs li, .item li, .links li, .policy li, .inform li {margin: 10px auto;padding: 5px 0;}
 .specs {margin-bottom: 40px;display: inline-block;}
 .details {display: flex;}
 .info {text-align: center;}
@@ -73,7 +73,10 @@ button a {display: block;position: relative;font-size: 16px;font-weight: 600;lin
 .fav {font-size: 30px;color: yellow;margin-left: 10px;}
 .gfw, .policy {display: inline-block;}
 .gfw a:hover, .policy a:hover, .links a:hover {text-decoration: underline;}
-.similar {margin:40px auto;}
+.inform a {text-decoration: underline; color: blue;}
+.tags {display: inline-flex;flex-wrap: wrap;}
+.tags li {background: #e5e5e5;padding: 5px 10px; margin: 5px;}
+.similar, .information {margin:40px auto;}
 .similar div {display: inline-flex;width: 100%;overflow: auto;padding: 20px 0;}
 .similar span {margin: auto 10px;}
 
@@ -187,6 +190,7 @@ footer {border-top: 2px solid #eeeeee;font-size: 12px;margin-top: 60px;padding-b
     .info {display: flex;}
     .info_card {margin-left: 10px;margin-right: 10px;}
 
+    .inform {display: inline-block;}
     .side {float: left;width: 15%;}
     .middle {width: 70%;}
 

@@ -12,13 +12,13 @@ img {width:150px;}
 
 header {position: fixed;width: 100%;height: 100px;z-index: 100;top: 0;left: 0;background: #ffffff;}
 .hd_container {align-items: center;display: flex;justify-content: space-between;}
-.modal {display: none;position: fixed;z-index: 1;padding-top: 100px;left: 0;top: 0;width: 100%;height: 100%;overflow: auto;background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.8);}
+.modal {display: none;position: fixed;z-index: 1;padding-top: 10%;left: 0;top: 0;width: 100%;height: 100%;overflow: auto;background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.8);}
 .mobile_nav {background-color: #fefefe;display: block;text-align: center;font-size: 30px;}
-.mobile_nav li{border: 1px solid #000000;}
+.mobile_nav li{border: 1px solid #000000;padding: 10px;}
 .close {color: #ffffff;font-size: 60px;font-weight: bold;margin-left: 20px;}
 .close:hover, .close:focus {color: #000000;text-decoration: none;cursor: pointer;}
-#logo_img {margin-top: 10px;}
 .main_nav {display: none;}
+.last {display: none;}
 #hamburger {width: 60px;}
 .logo {margin-top: 10px;}
 .fa-bars {transform: scale(2,2);}
@@ -192,12 +192,13 @@ footer {border-top: 2px solid #eeeeee;font-size: 12px;margin-top: 60px;padding-b
 @media screen and (min-width: 990px) {
     .navi {display: inline-flex;}
     img {width: 180px;}
+    .last {display: unset;margin-right: 0 !important;}
+    .last img {width: auto;}
     .close  {display: none;}
-    #logo_img {margin-top: -15px;}
-    .hd_container {align-items: normal;justify-content: normal;}
-    .main_nav {display: inline-block !important;font-size: 20px;font-weight: bold;margin-left: 30px;}
-    .main_nav ul {margin-top: 70px;}
-    .main_nav li {margin: 0 15%;}
+    .hd_container {justify-content: normal;}
+    .main_nav {display: inline-block !important;font-size: 20px;font-weight: bold;margin-right: 10px;width: 90%;}
+    .main_nav li {margin: 0 10%;}
+    .main_nav li:last-child {margin-left: 15px !important;}
     #hamburger {display: none;}
     .content {max-width: 40%;top: 20%;}
     .content h3 {font-size: 60px;}

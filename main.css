@@ -36,7 +36,7 @@ header {position: fixed;width: 100%;height: 100px;z-index: 100;top: 0;left: 0;ba
 .ad2_img {background-image: url(images/display_3.jpg);position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-repeat: no-repeat;background-size: cover;background-position: center center;}
 button {margin-left:15px;border: solid 2px #ffffff;width: 178px;height: 61px;background: none;text-align: center;overflow: hidden;cursor: pointer;}
 button a {display: block;position: relative;font-size: 16px;font-weight: 600;line-height: 57px;color: #ffffff;background: none;z-index: 1;}
-.new_products, .primary {display: flex;flex-wrap: wrap;}
+.new_products, .primary, .popular {display: flex;flex-wrap: wrap;}
 .card {box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;margin:40px auto;}
 
 .searchform {margin-bottom: 40px;text-align: center;}
@@ -160,6 +160,7 @@ footer {border-top: 2px solid #eeeeee;font-size: 12px;margin-top: 60px;padding-b
     .second {width: 60%;}
     .content h4 {font-size: 40px;}
     .card:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);}
+    .icontainer {display: inline-block;margin: auto 3%;}
     .container {display: flex;margin-left: 3%;margin-right: 1%;}
     .l_panel {float: left;width: 60%;margin-right: 40px;padding: 5px;}
     .specs {width: 100%;}
@@ -176,6 +177,7 @@ footer {border-top: 2px solid #eeeeee;font-size: 12px;margin-top: 60px;padding-b
     footer {font-size: 14px;}
 
 }
+
 @media screen and (min-width: 768px) and (max-width: 989px) {
     .searchform {text-align: unset;margin-left: 3%;}
     .searchform form {width: 65%;}
@@ -200,6 +202,7 @@ footer {border-top: 2px solid #eeeeee;font-size: 12px;margin-top: 60px;padding-b
     .content {max-width: 40%;top: 20%;}
     .content h3 {font-size: 60px;}
     .card {width: 24%;}
+    .popular .card {width: 30%;}
     .searchform {display: flex;justify-content: space-between;}
     .searchform form {width: 45%;margin-right: 5px;}
     .searchform input {height: 50px;}
@@ -209,7 +212,7 @@ footer {border-top: 2px solid #eeeeee;font-size: 12px;margin-top: 60px;padding-b
     .item {margin-left: 40px;padding-top: 0;width:45%;}
     .first .content {top: 50%;}
     .second .content {top: 10%;}
-    .info {display: flex;}
+    .info {display: flex;width: 80%;margin: auto;}
     .info_card {margin-left: 10px;margin-right: 10px;}
 
     .inform {display: inline-block;}

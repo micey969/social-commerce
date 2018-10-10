@@ -187,31 +187,6 @@
                 </div>
             </div>
         </footer>
-        <script>
-            var modal = document.getElementById("my_nav");
-            var btn = document.getElementById("hamburger");
-            var display = document.getElementsByClassName("navi")[0];
-            var span = document.getElementsByClassName("close")[0];
-
-            btn.onclick = function() {
-                modal.style.display = "block";
-                if (modal.className === "main_nav") {
-                    modal.className = "modal";
-                    display.className = "mobile_nav";
-                } 
-            }
-            span.onclick = function() {
-                modal.style.display = "none";
-                modal.className = "main_nav";
-                display.className = "navi";
-            }
-            window.onclick = function(event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                    modal.className = "main_nav";
-                    display.className = "navi";
-                }
-            }
-        </script>
+        <script src="main.js"></script>
     </body>
 </html>

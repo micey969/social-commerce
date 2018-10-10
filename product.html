@@ -38,19 +38,18 @@
 
         <!--The Page-->
 		<div id="wrapper">
+			<div class="banner"><h6>Flash Sale! | Find similar products to this that are on sale now. <a href="#">Visit</a> now! Only 1 day left.</h6></div>
+			<div class="searchform">
+				<form class="sf1" action="" method="POST">
+					<input title="search" name="search" placeholder="Search products">									
+				</form>	
+				<form class="sf2" action="" method="POST">
+					<input title="location" name="location" placeholder="Search location">
+				</form>
+				<button type="submit" value="submit">Search</button>
+			</div>
 			<div class="container">
 				<div class="l_panel">
-					<div class="searchform">
-						<form action="" method="POST">
-							<input title="search" name="search" placeholder="Search">									
-						</form>	
-						<select class="dropdown">
-							<option value="">Sort by <i class="fa fa-caret-down"></i></option>
-							<option value="old">Oldest</option>
-							<option value="new">Newest</option>
-							<option value="prc">Price</option>
-						</select>
-					</div>
 					<div class="products">
 						<div class="slideshow">
 							<div class="slideshow-container">
@@ -73,31 +72,37 @@
 								<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 								<a class="next" onclick="plusSlides(1)">&#10095;</a>
 								<br>	
-								<p class="small">Date Posted: Oct 5, 2018</p>						
+								<p class="small">Date Posted: Oct 5, 2018</p>
+								<br>
+								<div class="seller">
+									<p><b>Interested? </b>Contact the seller<sup>&#8224;</sup>:</p>
+									<ul>
+										<li><a href=""><img src="images/facebook.png"></a></li>
+										<li><a href=""><img src="images/twitter.png"></a></li>
+										<li><a href=""><img src="images/instagram.png"></a></li>
+										<li><a href=""><img src="images/email.png"></a></li>
+										<li><a href=""><img src="images/cell.jpeg"></a></li>
+									</ul>
+								</div>						
 							</div>
 							<div class="item">
-								<h5>Item Details:</h5>
+								<h5>12" display Macbook with 8GB 1866MHz LPDDR3 memory, 256GB SSD storage 
+									and 1.2GHz dual-core 7th-generation Intel Core m3 processor </h5>
+								<p class="small">By <a href="">John McCarthy</a></p>
+								<br>
+								<hr style="border:1px solid #f1f1f1;">
 								<ul>
+									<li><b>Item Price:</b>$1200.00</li>
 									<li><b>Item Name:</b> Macbook</li>
 									<li><b>Item Type:</b> Electronics</li>
 									<li><b>Item Category:</b> Laptop</li>
 									<li><b>Item Size:</b> 12 inches</li>
 									<li><b>Item Color:</b> Space Gray</li>
-									<li><b>Item Price:</b> USD $1200</li>
 									<li><b>Shipping Range:</b> Worldwide</li>
 									<li><b>Shipping Price*:</b> USD $10</li>
 								</ul>
-								<br><br>
+								<p class="small"><a href="">Report product</a></p>
 							</div>
-						</div>
-						<div class="seller">
-							<p><b>Interested? </b>Contact the seller<sup>&#8224;</sup>:</p>
-							<ul>
-								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
-							</ul>
 						</div>
 						<div class="description">
 							<h5>Description:</h5> 
@@ -134,7 +139,7 @@
 								<li> Weighs 2.03 pounds (0.92 kg) </li>
 							</ul>					
 						</div>
-						<hr style="border:1px solid #f1f1f1">
+						<hr style="border:1px solid #f1f1f1;">
 						<div class="information">
 							<h5> Additional Information</h5>
 							<ul class="inform">
@@ -187,24 +192,24 @@
 							<h5>Customers who viewed this item also viewed</h5>
 							<div>
 								<span>
-									<img src="images/product_2.jpg">
-									<p>$520.00</p>
+									<a href=""><img src="images/product_2.jpg">
+									<p>$520.00</p></a>
 								</span>
 								<span>
-									<img src="images/product_3.jpg">
-									<p>$50.00</p>
+									<a href=""><img src="images/product_3.jpg">
+									<p>$50.00</p></a>
 								</span>
 								<span>
-									<img src="images/product_6.jpg">
-									<p>$960.00</p>
+									<a href=""><img src="images/product_6.jpg">
+									<p>$960.00</p></a>
 								</span>
 								<span>
-									<img src="images/product_7.jpg">
-									<p>$800.00</p>
+									<a href=""><img src="images/product_7.jpg">
+									<p>$800.00</p></a>
 								</span>
 								<span>
-									<img src="images/product_9.jpg">
-									<p>$800.00</p>
+									<a href=""><img src="images/product_9.jpg">
+									<p>$800.00</p></a>
 								</span>
 							</div>
 						</div>						
@@ -213,24 +218,26 @@
 				<aside class="r_panel">
 					<h2> $1200.00</h2>
 					<ul class="gfw">
-						<li><a href="#"> Gift this item </a><span class="gift"> &#x1F381;</span></li>
-						<li><a href="#">Add to Favourites </a><span class="fav"> &#9734;</span></li>
+						<li><a href="#">Gift this item </a><span class="gift"> &#x1F381;</span></li>
 						<li><a href="#">Add to Wishlist </a><span class="wish"> &#9825;</span></li>
+						<li><a href="#">Add to Favourites </a><span class="fav"> &#9734;</span></li>
 					</ul>
 					<button style="background: red;"><a href="#">Add To Cart</a></button>
 					<button style="background: blue;"><a href="#">Group Buying</a></button>
 					<button style="border: 2px solid gray;margin-bottom: 20px;"><a href="#" style="color: gray;">Buy Now</a></button>
 					<span><img src="images/payment.jpg"></span>
-					<p class="small">*Shipping and handling prices may vary depending on destination.</p>
-					<hr style="border:1px solid #f1f1f1;margin-bottom: 20px;">
+					<p class="small">*Shipping and handling prices may vary depending on destination.</p><br>
+					<hr style="border:1px solid #f1f1f1;">
 
+					<br>
 					<h6>Let us help you</h6>
 					<ul class="policy">
 						<li><a href="">Shipping Rates & Policies</a></li>
 						<li><a href="">Delivery & Return</a></li>
 						<li><a href="">Warranty & Support</a></li>
 					</ul>
-					<hr style="border:1px solid #f1f1f1;margin-bottom: 20px;">
+					<hr style="border:1px solid #f1f1f1;">
+					<br>
 
 					<h6>Share via</h6>
 					<ul class= "share">
@@ -389,54 +396,6 @@
 			</div>
 		</footer>
 		
-		<script>
-			var modal = document.getElementById("my_nav");
-			var btn = document.getElementById("hamburger");
-			var display = document.getElementsByClassName("navi")[0];
-			var span = document.getElementsByClassName("close")[0];
-
-			btn.onclick = function() {
-				modal.style.display = "block";
-				if (modal.className === "main_nav") {
-					modal.className = "modal";
-					display.className = "mobile_nav";
-				} 
-			}
-			span.onclick = function() {
-				modal.style.display = "none";
-				modal.className = "main_nav";
-				display.className = "navi";
-			}
-			window.onclick = function(event) {
-				if (event.target == modal) {
-					modal.style.display = "none";
-					modal.className = "main_nav";
-					display.className = "navi";
-				}
-			}
-		</script>
-		<script>
-			var slideIndex = 1;
-			showSlides(slideIndex);
-
-			function plusSlides(n) {
-				showSlides(slideIndex += n);
-			}
-
-			function currentSlide(n) {
-				showSlides(slideIndex = n);
-			}
-
-			function showSlides(n) {
-				var i;
-				var slides = document.getElementsByClassName("mySlides");
-				if (n > slides.length) {slideIndex = 1}    
-				if (n < 1) {slideIndex = slides.length}
-				for (i = 0; i < slides.length; i++) {
-					slides[i].style.display = "none";  
-				}
-				slides[slideIndex-1].style.display = "block";  
-			}
-		</script>
+		<script src="main.js"></script>
     </body>
 </html>

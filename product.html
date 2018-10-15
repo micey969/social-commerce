@@ -39,7 +39,9 @@
 
         <!--The Page-->
 		<div id="wrapper">
-			<div class="banner"><h6>Flash Sale! | Find similar products to this that are on sale now. <a href="#">Visit</a> now! Only 1 day left.</h6></div>
+			<div class="banner">
+				<h6>Flash Sale! | Find similar products to this that are on sale now. <a href="#">Visit</a> now! Only 1 day left.</h6>
+			</div>
 			<div class="searchform">
 				<form class="sf1" action="" method="POST">
 					<input title="search" name="search" placeholder="Search products">									
@@ -370,6 +372,7 @@
 								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
 							</ul>
+							<div><a href=""><img src="images/store.jpg"></a></div>
 						</div>
 					</div>
 					<div class="links">
@@ -379,7 +382,6 @@
 							<li><a href="#">Wiki</a></li>
 							<li><a href="#">Forum</a></li>
 							<li><a href="#">FAQ</a></li>
-							<li><a href="#">E-Catalog</a></li>
 						</ul>
 					</div>
 					<div class="newsletter">
@@ -387,7 +389,10 @@
 						<form action="" method="POST">
 							<input title="email" name="email" placeholder="Enter email...">									
 						</form>	
-						<button type="submit" value="Submit">Submit</button>
+						<button class="news" type="submit" value="Submit">Submit</button>
+						<div style="margin-top: 20px;">
+							<button class="feedback">Give us your feedback!</button>
+						</div>
 					</div>
 				</div>
 				<div class="floating-chat">
@@ -422,5 +427,28 @@
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script src="main.js"></script>
+		<script>
+			var slideIndexes = 1;
+			showSlides(slideIndexes);
+
+			function plusSlides(n) {
+				showSlides(slideIndexes += n);
+			}
+
+			function currentSlide(n) {
+				showSlides(slideIndexes = n);
+			}
+
+			function showSlides(n) {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				if (n > slides.length) {slideIndexes = 1}    
+				if (n < 1) {slideIndexes = slides.length}
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";  
+				}
+				slides[slideIndexes-1].style.display = "block";  
+			}
+		</script>
     </body>
 </html>
